@@ -1,0 +1,21 @@
+.colorChoices {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+  margin-bottom: 4px;
+}
+
+.colorChoice {
+  --size: 48px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: calc(var(--size) * 0.75);
+  color: rgba(255, 255, 255, 0.8);
+  width: var(--size);
+  height: var(--size);
+  border-radius: 50%;
+  border: var(--border);
+  background-color: var(--bg);
+  cursor: pointer;
+}
